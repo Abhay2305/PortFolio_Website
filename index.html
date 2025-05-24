@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("Kohv-FPeE9m7Q1-Vh");
+        })();
+    </script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">Portfolio</div>
+                <ul class="nav-links">
+                    <li><a href="#profile">Profile</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#activities">Activities</a></li>
+                    <li><a href="#hobbies">Hobbies</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="profile">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-image">
+                        <div class="image-container">
+                            <img src="assets/profile.jpg" alt="Profile Photo">
+                        </div>
+                    </div>
+                    <div class="hero-text">
+                        <h1>Hello, I'm <span class="highlight">Abhay Padavi</span></h1>
+                        <h2>Computer Engineer</h2>
+                        <!-- <p>A brief introduction about yourself. Describe your passion, expertise, and what drives you professionally. Keep it concise yet compelling to create a strong first impression.</p> -->
+                        <div class="cta-buttons">
+                            <a href="#contact" class="btn primary-btn">Contact Me</a>
+                            <a href="assets/Abhay_Padavi.Resume.pdf" class="btn secondary-btn" download>Download CV</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills section-padding" id="skills">
+            <div class="container">
+                <div class="section-header">
+                    <h2>My <span class="highlight">Skills</span></h2>
+                    <p>A comprehensive overview of my technical and soft skills</p>
+                </div>
+                
+                <div class="skills-container">
+                    <div class="skill-category">
+                        <h3>Programming Languages</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">PL/SQL</span>
+                            <span class="skill-tag">SQL</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">HTML</span>
+                            <span class="skill-tag">CSS</span>
+                            <span class="skill-tag">XML</span>
+                            <span class="skill-tag">C#</span>
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3>Version Control Tools</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">GitHub</span>
+                            <span class="skill-tag">Visual Studio Code</span>
+                            <span class="skill-tag">Android Studio</span>
+                            <span class="skill-tag">SQL Workbench</span>
+                            <span class="skill-tag">DevExpress</span>
+                            <span class="skill-tag">Oracle PL/SQL Developer</span>
+                            <span class="skill-tag">Linux</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3>Job Simulations</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Forage -  Accenture Data Analytics and Visualization</span>
+                            <span class="skill-tag">Forage - Tata Data Visualization</span>
+                            <span class="skill-tag">Forage - Standard Bank Data Science</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3>Coursework</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag"> Database and Management System</span>
+                            <span class="skill-tag">Object-Oriented Programmings</span>
+                            <span class="skill-tag">Advanced Excel</span>
+                            <span class="skill-tag"> Tableau</span>
+                            <span class="skill-tag"> Data Visualization</span>
+                            <span class="skill-tag">LaTex(Overleaf)</span>
+                            <span class="skill-tag"> Data Analytics Essentials</span>
+                            
+                            
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3>Soft Skills</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Attention to detail</span>
+                            <span class="skill-tag">Critical thinking</span>
+                            <span class="skill-tag">Communication</span>
+                            <span class="skill-tag"> Problem-solving</span>
+                            <span class="skill-tag">Team Collaboration </span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-category">
+                        <h3>Languages Spoken</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">English</span>
+                            <span class="skill-tag">Hindi</span>
+                            <span class="skill-tag">Gujarati</span>
+                            <span class="skill-tag">Marathi</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects section-padding" id="projects">
+            <div class="container">
+                <div class="section-header">
+                    <h2>My <span class="highlight">Projects</span></h2>
+                    <p>A showcase of my recent work and accomplishments</p>
+                </div>
+                
+                <div class="projects-grid">
+                    <!-- Project Card 1 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="assets/portal.jpg" alt="Project 1">
+                        </div>
+                        <div class="project-content">
+                            <h3>Training And Placement Portal </h3>
+                            <p>Developed and implemented a Training and Placement portal using Python, PHP, HTML, CSS, JavaScript, and Django. Empowering college students to apply 
+                                seamlessly for their desired jobs.</p>
+                                 <p> Pioneered an adaptive recommendation system to evaluate students' performance, suggesting relevant courses for skill enhancement and career advancement</p>
+                            <div class="project-tags">
+                                <span class="project-tag">Python</span>
+                                <span class="project-tag">PHP</span>
+                                <span class="project-tag">HTML</span>
+                                <span class="project-tag">CSS</span>
+                                <span class="project-tag">JavaScript</span>
+                                <span class="project-tag">Django</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/Abhay2305/Training-And-Placement-Portal" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                                <!-- <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a> -->
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Project Card 2 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="assets/chart.png" alt="Project 2">
+                        </div>
+                        <div class="project-content">
+                            <h3>DataPlotter360 -Dynamic Data VisualizationTool</h3>
+                            <p>The notebook provides a comprehensive guide for creating dynamic and interactive data visualizations. </p>
+                            <p>It includes detailed instructions and examples on how to leverage various Python libraries, such as Matplotlib, Seaborn, and Plotly, to enhance data analysis and presentation.</p>
+                            <div class="project-tags">
+                                <span class="project-tag">Python</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/Abhay2305/DataPlotter360-Dynamic-Data-Visualization-Tool" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                                <!-- <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a> -->
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Project Card 3 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="assets/Instagram.jpg" alt="Project 3">
+                        </div>
+                        <div class="project-content">
+                            <h3>Instagram Clone</h3>
+                            <p>This HTML code represents a comprehensive and dynamic Instagram-like web interface. It includes a responsive sidebar for navigation and user information, along with a main content area for stories and posts, providing an engaging user experience.</p>
+                            <div class="project-tags">
+                                <span class="project-tag">HTML</span>
+                                <span class="project-tag">CSS</span>
+                                <span class="project-tag">JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/Abhay2305/Instagram_clone/tree/main" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                                <!-- <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="experience section-padding" id="experience">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Work <span class="highlight">Experience</span></h2>
+                    <p>My professional journey and internships</p>
+                </div>
+                
+                <div class="timeline">
+                    <!-- Experience 1 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>Ramana Bank</h3>
+                            <h4>Data </h4>
+                            <p class="timeline-date">June 2023 - Decemeber 2023</p>
+                            <p> Presented data summaries and visualizations to stakeholders, resulting in a 60% improvement in strategic goal alignment and better overall outcomes. 
+                            </p>
+                            <p>Operated Tableau to create dynamic data visualizations, enhancing report accessibility and facilitating data-driven decision-making, while also boosting database 
+                                efficiency by 30%.</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Experience 2 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>Hindustan Aeronautics Limited</h3>
+                            <h4>Software Developer Apprentice</h4>
+                            <p class="timeline-date">October 2024 - Present</p>
+                            <p>Directly handled and executed high-priority projects assigned by the General Manager (GM), ensuring timely and high-quality delivery. </p>
+                       <P>Utilized standard packages and implemented bulk binding techniques in writing database procedures, functions, and packages for front-end modules</P>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="education section-padding" id="education">
+            <div class="container">
+                <div class="section-header">
+                    <h2>My <span class="highlight">Education</span></h2>
+                    <p>My academic journey and qualifications</p>
+                </div>
+                
+                <div class="timeline">
+                    <!-- Education 1 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>Trinity Academy Of Engineering </h3>
+                            <h4>Bachelor's Degree in Computer Science</h4>
+                            <p class="timeline-date">2019 - 2023</p>
+                            </div>
+                    </div>
+                    
+                    <!-- Education 2 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>LP Savani Vidhyabhavan</h3>
+                            <h4>12th Grade</h4>
+                            <p class="timeline-date">2018 - 2019</p>
+                            </div>
+                    </div>
+                    
+                    <!-- Education 3 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>Smt L.N.B Daliya High School</h3>
+                            <h4>10th Grade</h4>
+                            <p class="timeline-date">2016 - 2017</p>
+                             </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Extracurricular Activities Section -->
+        <section class="activities section-padding" id="activities">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Extracurricular <span class="highlight">Activities</span></h2>
+                    <p>Activities that have shaped my personal and professional growth</p>
+                </div>
+                
+                <div class="activities-grid">
+                    <div class="activity-card">
+                        <div class="activity-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3> Public Relations (PR) </h3>
+                        <p>Held a position on the Public Relations (PR) team at the college, facilitating effective communication outreach and also conducted many events in college.</p>
+                    </div>
+                    
+                    <div class="activity-card">
+                        <div class="activity-icon">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <h3>Purushottam Karandak</h3>
+                        <p>Participated in a cultural activity by performing in a Marathi drama.</p>
+                    </div>
+                    
+                    <div class="activity-card">
+                        <div class="activity-icon">
+                            <i class="fas fa-hands-helping"></i>
+                        </div>
+                        <h3>DEXTO MOTORS </h3>
+                        <p>
+                            Promoted unique features of electric vehicles at a grand EV Expo and Contest hosted by the Nowrosjee Wadia College, Pune</p>
+                    </div>
+                    
+                    <div class="activity-card">
+                        <div class="activity-icon">
+                            <i class="fas fa-microphone"></i>
+                        </div>
+                        <h3>Public Speaking</h3>
+                        <p>Presented technical topics at Company, seminars and tech meetups.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Hobbies Section -->
+        <section class="hobbies section-padding" id="hobbies">
+            <div class="container">
+                <div class="section-header">
+                    <h2>My <span class="highlight">Hobbies</span></h2>
+                    <p>What I enjoy doing in my free time</p>
+                </div>
+                
+                <div class="hobbies-grid">
+                    <div class="hobby-category">
+                        <h3><i class="fas fa-running"></i> Sports</h3>
+                        <div class="hobby-items">
+                            <span class="hobby-item">Volleyball</span>
+                            <span class="hobby-item">Kho-Kho</span>
+                            <span class="hobby-item">Chess</span>
+                        </div>
+                    </div>
+                    
+                    <div class="hobby-category">
+                        <h3><i class="fas fa-brain"></i> Mindful Activities</h3>
+                        <div class="hobby-items">
+                            <span class="hobby-item">Meditation</span>
+                            <span class="hobby-item">Reading books</span>
+                        </div>
+                    </div>
+                    
+                    <div class="hobby-category">
+                        <h3><i class="fas fa-film"></i> Leisure</h3>
+                        <div class="hobby-items">
+                            <span class="hobby-item">Watching movies</span>
+                            <span class="hobby-item">Listening to podcasts</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section-padding" id="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Get in <span class="highlight">Touch</span></h2>
+                    <p>Feel free to reach out for collaborations or just a friendly chat</p>
+                </div>
+                
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <p>abhaypadavi@gmail.com</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <p>9558538691</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>India</p>
+                        </div>
+                        
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/abhaypadavi01" class="social-link"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/Abhay2305" class="social-link"><i class="fab fa-github"></i></a>
+                            <!-- <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a> -->
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form">
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" id="subject" name="subject" placeholder="Subject">
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                            </div>
+                            <button type="submit" class="btn primary-btn">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; Abhay Padavi. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 

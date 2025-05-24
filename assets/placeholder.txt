@@ -1,0 +1,18 @@
+Placeholder for images
+
+For this portfolio website, you'll need to add the following images:
+
+1. profile-placeholder.jpg - Your professional photo (recommended size: 500x500px)
+2. project1.jpg - Screenshot or representation of your first project (16:9 aspect ratio recommended)
+3. project2.jpg - Screenshot or representation of your second project (16:9 aspect ratio recommended)
+4. project3.jpg - Screenshot or representation of your third project (16:9 aspect ratio recommended)
+5. resume.pdf - Your downloadable resume
+
+You can use stock photos, personal projects, or create placeholder images until you have your own content.
+
+Recommended free resources for placeholder images:
+- Unsplash.com
+- Pexels.com
+- Pixabay.com
+
+For project images, you might want to use screenshots of your actual work if available. 
